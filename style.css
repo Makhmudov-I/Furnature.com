@@ -1,0 +1,374 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sub_nav{
+width: 100%;
+height: 40px;
+background-color: #f4f4f4;
+display: flex;
+align-items: center;
+}
+.collection_sub{
+display: flex;
+list-style-type: none;
+color: grey;
+}
+.collection_sub > li{
+    margin: 0px 20px;
+}
+.invisible{
+    flex: 1;
+}
+.nav{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    align-items: center;
+}
+.nav_logo{
+margin-left: 10%;
+flex: 1;
+}
+.main_col{
+display: flex;
+list-style-type: none;
+margin-right: 300px;
+}
+.main_col > li{
+    margin: 0px 50px;
+}
+.position{
+    margin: 10px;
+}
+.rooms{
+    margin-right: 50px;
+    text-decoration: none;color: #000;
+    
+}
+.cart{
+    margin-right: 10%;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url('./111111\ 1.png');
+    background-size: cover;
+}
+.banner_content{
+    display: flex;
+}
+.banner_content > h1{
+    width: 20%;
+    font-size: 48px;
+    font-weight: normal;
+    line-height: 58px;
+    color: #1a1a1a;
+    padding: 30px 0px 0px 15%;
+}
+.banner_content > p{
+    font-style: normal;
+    font-weight: normal;
+     font-size: 24px;
+     line-height: 40px;
+     color: #aaaaaa;
+     width: 35%;
+     padding: 30px 0px 0px 15%;
+}
+.wrapper{
+    width: 100%;    
+    height: 100vh;
+    margin-top: 60px;
+}
+
+.up{
+    width: 80%;
+    height: 50vh;
+    margin: 0 auto; 
+    justify-content: center;
+    display: flex;
+}
+
+.down{
+    width: 80%;
+    height: 50vh;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: center;
+
+}
+.left_div{
+    width: 40%;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.left_div img{
+    width: 80%;
+    margin-left: 40px;
+}
+
+.left_div p {
+    font-size: 22px;
+    margin-left: 40px;
+
+}
+.right_div{
+    width: 40%;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+}
+.right_div img{
+    width: 80%;
+    margin-left: 40px;
+}
+.right_div p{
+    font-size: 22px;
+    margin-left: 40px;
+}
+.div_left{
+    width: 40%;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+}
+.div_left img{
+    width: 80%;
+    margin-left: 40px;
+}
+.div_left p{
+    font-size: 22px;
+    margin-left: 40px;
+}
+.div_right{
+    width: 40%;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+}
+.div_right img{
+    width: 80%;
+    margin-left: 40px;
+}
+.div_right p{
+    font-size: 22px;
+    margin-left: 40px;
+}
+.line{
+    width: 60%;
+    height: 20vh;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.line h1{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-style: italic;
+    color: black;
+    padding-top: 50px;
+    margin-left: 160px;
+}
+.line h2{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-style: italic;
+    color: rgb(163, 162, 162);
+    margin-left: 360px;
+    margin-top: 20px;
+}
+.nike{
+    width: 70%;
+    height: 45vh;
+    margin: 0 auto;
+}
+.first_div{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+}
+.first_div img{
+    width: 7%;
+    margin-right: 50px;
+    color: black;
+}
+.second_div{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+}
+.second_div img{
+    width: 7%;
+    margin-right: 50px;
+    color: black;
+}
+.third_div{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+}
+.third_div img{
+    width: 7%;
+    margin-right: 50px;
+    color: black;
+}
+.guys{
+    width: 80%;
+    height: 70vh;
+    background-color: black;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+.guys img{
+    width: 100%;
+}
+.text{
+    width: 60%;
+    height: 30vh;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+.text h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-style: italic;
+    color: black;
+}
+.text h2{
+    font-size: 10px;
+    font-family: sans-serif;
+    font-style: italic;
+    color: rgb(35, 240, 188);
+    margin-top: 30px;
+}
+.clocks{
+    width: 80%;
+    height: 20vh;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+.clocks img{
+    width: 25%;
+    color: grey;
+}
+.cost{
+    width: 80%;
+    height: 5vh;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.cost h1{
+    font-size: 22px;
+    font-family: sans-serif;
+    color: black;
+    margin-right: 50px;
+    margin-left: 150px;
+}
+.long{
+    width: 80%;
+    height: 30vh;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.long h1{
+    font-size: 20px;
+    color: rgb(124, 124, 124);
+    margin-left: 80px;
+    margin-right: 10px;
+}
+.girl{
+    width: 80%;
+    height: 80vh;
+    margin: 0 auto;
+   background-image: url(girl.png);
+    margin-top: 80px;
+}
+.star{
+    width: 40%;
+    height: 70vh;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 40px;
+
+}
+.back{
+    font-size: 10px;
+    margin-left: 200px;
+    color: white;
+}
+.backer{
+    font-size: 10px;
+    margin-left: 200px;
+    color: white;
+}
+.backk{
+    font-size: 10px;
+    margin-left: 200px;
+    color: white;
+}
+.star h2{
+    margin-left: 200px;
+    font-size: 15px;
+    color: white;
+}
+.picture_text{
+    width: 80%;
+    height: 40vh;
+    margin:  0 auto;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.picture_text h1{
+    font-size: 25px;
+    color: rgb(184, 183, 183);
+    
+}
+.picture_text h2{
+    font-size: 25px;
+    color: black;
+    margin-top: 20px;
+}
+.son{
+    width: 70%;
+    height: 60vh;
+    display: flex;
+    margin: 0 auto;
+}
+.sin{
+    width: 50%;
+    height: 60vh;
+}
+.sin img{
+    width: 100%;
+    height: 60vh;
+}
+.daughter{
+    width: 50%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.daughter h1{
+    font-size: 30px;
+}
+.daughter h2{
+    font-size: 10px;
+    margin-top: 20px;
+    color: rgb(187, 186, 186);
+}
